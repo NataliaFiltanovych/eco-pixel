@@ -1,29 +1,25 @@
 /*My css*/
 body {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 400;
   font-style: normal;
   color: #030a06;
   background-color: #ebf8ed;
-  margin: 0;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   font-family: 'Comfortaa', sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
-  margin: 0;
+}
+p {
+  font-family: 'Fira Sans', sans-serif;
 }
 section {
   padding: 64px 0;
-  margin: 0;
-  background-color: #ebf8ed;
 }
 .visually-hidden {
   position: absolute;
