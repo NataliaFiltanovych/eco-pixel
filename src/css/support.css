@@ -1,0 +1,124 @@
+.support-section {
+    background-color: #ebf8ed;
+}
+.support {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.contacts-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.contacts-title {
+    line-height: 1.6;
+    color: #030a06;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.contacts-label {
+   display: block;
+   margin-bottom: 8px;
+}
+.contacts-input {
+    border: 1px solid rgba(3, 10, 6, 0.15);
+    border-radius: 6px;
+    padding: 8px 12px;
+    width: 100%;
+    height: 42px;
+    background-color: rgba(3, 10, 6, 0.05);
+    margin-bottom: 24px;
+}
+.input-email {
+    border: 1px solid rgba(3, 10, 6, 0.15);
+    border-radius: 6px;
+    padding: 8px 12px;
+    width: 100%;
+    height: 42px;
+    background-color: rgba(3, 10, 6, 0.05);
+    margin-bottom: 24px;
+
+}
+.input-email:not(:placeholder-shown):invalid {
+    border-color: red;
+}
+.input-email:not(:placeholder-shown):valid {
+    border-color: green;
+}
+.text-valid,
+.text-invalid {
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 4px;
+    display: none;
+}
+.text-valid {
+    color: green;
+}
+
+.text-invalid {
+    color: red;
+}
+.input-email:not(:placeholder-shown):valid~.text-valid {
+    display: block;
+}
+.input-email:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+}
+.contacts-textarea {
+    background-color: rgba(3, 10, 6, 0.05);
+    border: 1px solid rgba(3, 10, 6, 0.15);
+    border-radius: 6px;
+    padding: 12px;
+    width: 100%;
+    height: 180px;
+    resize: none;
+    margin-bottom: 24px;
+}
+.contacts-input::placeholder {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(3, 10, 6, 0.6);
+}
+.contacts-input-email::placeholder {
+    text-decoration: underline;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(3, 10, 6, 0.6);
+}
+.form-btn {
+    border: 1px solid #030a06;
+    border-radius: 6px;
+    padding: 12px 24px;
+    width: 100%;
+    height: 50px;
+    background-color: #030a06;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+ .contacts-image-wrapper {
+    background-image: url(../img/support/support-mobile.jpg);
+    border-radius: 40px;
+    width: 288px;
+    height: 428px;
+    margin: 0 auto;
+ }
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+    .contacts-image-wrapper {
+        background-image: url(../img/support/support-mobile@2x.jpg);
+    }
+}
