@@ -1,3 +1,8 @@
+.advantages-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 .advantages-subtext {
   font-weight: 600;
   font-size: 16px;
@@ -5,7 +10,7 @@
   /* line-height: 24px; */
   line-height: 1.5;
   color: #030a06;
-  padding: 32px 0 12px 0;
+  padding-bottom: 12px;
 }
 
 .advantages-title {
@@ -34,6 +39,7 @@ img {
   border-radius: 32px;
   width: 100%;
   height: auto;
+  margin-bottom: 8px;
 }
 
 .advantages-item-title {
@@ -45,7 +51,14 @@ img {
   line-height: 1.4;
   letter-spacing: 0.01em;
   color: #030a06;
+  margin-bottom: 4px;
 }
 
-.advantages-item-text {
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+@media screen and (min-width: 768px) {
 }
