@@ -1,9 +1,5 @@
 /*Feedbacks*/
 /*Mobile*/
-.feedbacks-section {
-  padding: 32px 0;
-  background-color: #ebf8ed;
-}
 .feedbacks-container {
   display: flex;
   align-items: center;
@@ -24,7 +20,6 @@
   letter-spacing: 0.01em;
   line-height: 1.2;
   text-transform: capitalize;
-  color: #030a06;
 }
 .feedbacks-list {
   list-style: none;
@@ -60,48 +55,25 @@
 .feedbacks-icons-unfilled-stars {
   fill: #3ac04c;
 }
-.text {
+.feedbacks-text {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #030a06;
   line-height: 1.4;
   letter-spacing: 0.01em;
 }
-.name {
+.feedbacks-author {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
-  color: #030a06;
   line-height: 1.6;
   letter-spacing: 0.01em;
 }
 /*Tablet*/
 @media screen and (min-width: 768px) {
-  .feedbacks-section {
-    padding: 64px 0;
-  }
-  .feedbacks-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 32px;
-  }
   .feedbacks-title {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 24px;
-    font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    line-height: 1.2;
-    text-transform: capitalize;
-    color: #030a06;
   }
   .feedbacks-list {
     list-style: none;
@@ -114,75 +86,25 @@
     column-gap: 24px;
   }
   .feedbacks-card {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
     width: calc((100% - 48px) / 2);
   }
   .feedbacks-icons {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: row;
     gap: 4px;
     width: 136px;
   }
-  .filled-star {
-    width: 24px;
-    height: 24px;
-  }
-  .feedbacks-icons-stars {
-    fill: #3ac04c;
-  }
-  .feedbacks-icons-unfilled-stars {
-    fill: #3ac04c;
-  }
-  .text {
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #030a06;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-  }
-  .name {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #030a06;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
-  }
 }
 /*Desktop*/
 @media screen and (min-width: 1440px) {
-  .feedbacks-section {
-    padding: 64px 0;
-  }
   .feedbacks-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
     gap: 80px;
   }
   .feedbacks-title {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 24px;
     width: 560px;
-    font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    line-height: 1.2;
-    text-transform: capitalize;
-    color: #030a06;
   }
   .feedbacks-list {
     list-style: none;
@@ -195,45 +117,13 @@
     margin: 0;
   }
   .feedbacks-card {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
     width: calc((100% - 72px) / 4);
   }
   .feedbacks-icons {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: row;
     gap: 4px;
     width: 136px;
-  }
-  .filled-star {
-    width: 24px;
-    height: 24px;
-  }
-  .feedbacks-icons-stars {
-    fill: #3ac04c;
-  }
-  .feedbacks-icons-unfilled-stars {
-    fill: #3ac04c;
-  }
-  .text {
-    font-family: 'Comfortaa', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #030a06;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-  }
-  .name {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #030a06;
-    line-height: 1.6;
-    letter-spacing: 0.01em;
   }
 }
