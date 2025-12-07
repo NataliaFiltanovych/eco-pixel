@@ -1,8 +1,4 @@
-.support-section {
-    background-color: #ebf8ed;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 
 
 
@@ -131,9 +127,6 @@
     }
 }
 @media screen and (min-width: 768px) {
-    .support-section {
-       padding: 64px 32px; 
-    }
     .form-btn {
         width: 249px;
     }
@@ -149,9 +142,6 @@
 }
 }
 @media screen and (min-width: 1440px) {
-    .support-section {
-      padding: 64px;
-    }
     .support {
         max-width: 1312px;
         
