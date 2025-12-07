@@ -105,11 +105,13 @@
     font-size: 16px;
     margin: 0 auto;
     margin-bottom: 24px;
+    transition: background-color 250ms ease-in-out, opacity 250ms ease-in-out;
 }
 .form-btn:hover,
 .form-btn:focus {
     background-color: #030a06;
     opacity: 0.5;
+    
 }
 
 
