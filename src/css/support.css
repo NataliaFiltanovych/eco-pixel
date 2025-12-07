@@ -110,6 +110,13 @@
     margin: 0 auto;
     margin-bottom: 24px;
 }
+.form-btn:hover,
+.form-btn:focus {
+    background-color: #030a06;
+    opacity: 0.5;
+}
+
+
  .contacts-image-wrapper {
     background-image: url(/img/support/support-mobile.jpg);
     border-radius: 40px;
