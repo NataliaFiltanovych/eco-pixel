@@ -7,6 +7,7 @@
 
 
 .contacts-main-title {
+    font-family: "Comfortaa", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -110,7 +111,7 @@
     margin-bottom: 24px;
 }
  .contacts-image-wrapper {
-    background-image: url(../img/support/support-mobile.jpg);
+    background-image: url(/img/support/support-mobile.jpg);
     border-radius: 40px;
     width: 288px;
     height: 428px;
@@ -118,7 +119,7 @@
  }
 @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
     .contacts-image-wrapper {
-        background-image: url(../img/support/support-mobile@2x.jpg);
+        background-image: url(/img/support/support-mobile@2x.jpg);
         background-size: cover;
     }
 }
@@ -130,17 +131,17 @@
         width: 249px;
     }
     .contacts-image-wrapper {
-        background-image: url(../img/support/support-tablet.jpg);
+        background-image: url(/img/support/support-tablet.jpg);
         width: 704px;
         height: 428px;
     }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .contacts-image-wrapper {
-        background-image: url(../img/support/support-tablet@2x.jpg);
+        background-image: url(/img/support/support-tablet@2x.jpg);
     }
 }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .support-section {
       padding: 64px;
     }
@@ -151,7 +152,7 @@
         gap: 24px;
     }
     .contacts-image-wrapper {
-        background-image: url(../img/support/support-desktop.jpg);
+        background-image: url(/img/support/support-desktop.jpg);
         width: 644px;
         height: 767px;
     }
