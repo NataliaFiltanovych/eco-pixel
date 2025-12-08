@@ -30,12 +30,13 @@
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 48px;
 }
 
 .advantages-item {
   max-width: 100%;
-  align-items: baseline;
 }
 
 img {
