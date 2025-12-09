@@ -5,7 +5,7 @@
 .gallery-section .container {
 
     max-width: 320px;
-}
+    margin: 0 auto;}
 
 .gallery-title {
     margin: 0 auto 24px;
@@ -68,7 +68,7 @@
 
 @media screen and (min-width: 768px) {
     .gallery-section .container {
-        max-width: 704px;
+        max-width: 768px;
     }
 
     .gallery-title {
@@ -120,7 +120,7 @@
 
 @media screen and (min-width: 1440px) {
     .gallery-section .container {
-        max-width: 1312px;
+        max-width: 1440px;
 
     }
 
