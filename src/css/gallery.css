@@ -54,6 +54,7 @@ font-weight: 400;
     .gallery-title {
         font-size: 36px;
         font-family: "Comfortaa", sans-serif;
+        margin-bottom: 24px;
     }
 
     .gallery-subtitle {
@@ -107,6 +108,7 @@ font-weight: 400;
 .gallery-title {
     font-size: 48px;
     font-family: "Comfortaa", sans-serif;
+    margin-bottom: 24px;
 }
 
 .gallery-subtitle {
